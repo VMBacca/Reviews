@@ -35,9 +35,7 @@ const Review = () => {
     if (randomNumber === index) {
       randomNumber = index + 1;
     }
-    // the "if" above prevents the repetition of the content
     setIndex(checkNumber(randomNumber));
-    //the code above makes the content appear with "setIndex" and prevent errors with "checkNumber", preventing bigger or lesser numbers than "people.length"
   };
 
   return (
